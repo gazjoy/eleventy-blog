@@ -31,7 +31,9 @@ content:
     type: collection
     path: content/coaches
     fields:
+      - { name: name, label: Name, type: string }
       - { name: profile, label: Profile image, type: image }
+      - { name: bio, label: Bio, type: text }
     
   - name: metadata
     label: Metadata
