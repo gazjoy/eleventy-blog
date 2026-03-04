@@ -29,7 +29,9 @@ content:
   - name: coaches
     label: Our coaches
     type: collection
-    path: content/coaches
+    path: content/coaches/index.md
+    view:
+      fields: [ name, bio, published ]
     fields:
       - { name: name, label: Name, type: string }
       - { name: profile, label: Profile image, type: image }
