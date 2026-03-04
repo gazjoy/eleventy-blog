@@ -30,6 +30,8 @@ content:
     label: Our coaches
     type: collection
     path: content/coaches
+    fields:
+      - { name: profile, label: Profile image, type: image }
     
   - name: metadata
     label: Metadata
