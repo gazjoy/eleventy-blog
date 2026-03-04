@@ -34,6 +34,7 @@ content:
       - { name: name, label: Name, type: string }
       - { name: profile, label: Profile image, type: image }
       - { name: bio, label: Bio, type: text }
+      - { name: published, label: Published, type: boolean, default: false }
     
   - name: metadata
     label: Metadata
