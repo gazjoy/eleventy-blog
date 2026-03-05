@@ -1,14 +1,7 @@
 ---
 layout: layouts/base.njk
-body: This is the page for our coaches, look t them below
 eleventyNavigation:
   key: Coaches
   order: 8
+  body: This is the coaches page, our coaches are great
 ---
-
-<h1>Our coaches</h1>
-
-{{ body }}
-
-{% set postslist = collections.coaches %}
-{% include "coacheslist.njk" %}
