@@ -30,7 +30,7 @@ content:
   - name: coaches
     label: Our coaches
     type: collection
-    path: content/coaches/index.md
+    path: content/coaches
     view:
       fields: [ name, bio, published ]
     fields:
