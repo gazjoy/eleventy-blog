@@ -65,6 +65,11 @@ module.exports = function(eleventyConfig) {
 		return Math.min.apply(null, numbers);
 	});
 
+	// Add collections
+	eleventyConfig.addCollection("coaches", (collectionApi) => {
+		return collectionApi.getFilteredByTag("coaches");
+	});
+
 	// Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();

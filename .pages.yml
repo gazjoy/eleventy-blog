@@ -13,6 +13,7 @@ content:
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: body, label: Body, type: rich-text }
+      
   - name: about
     label: About page
     type: file
@@ -36,8 +37,11 @@ content:
       - { name: name, label: Name, type: string }
       - { name: profile, label: Profile image, type: image }
       - { name: bio, label: Bio, type: text }
-      - { name: published, label: Published, type: boolean, default: false }
-    
+      - { name: date, label: Date, type: date }
+      - { name: draft, label: Draft, type: boolean }
+      - { name: tags, label: Tags, type: string, list: true }
+      - { name: body, label: Body, type: rich-text }
+
   - name: metadata
     label: Metadata
     type: file
