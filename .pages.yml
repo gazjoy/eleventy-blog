@@ -1,4 +1,4 @@
-media: public/img
+media: _site/img
 content:
   - name: posts
     label: Posts
@@ -28,10 +28,10 @@ content:
           - { name: order, label: Order, type: number }
           - { name: body, label: Body, type: rich-text }
 
-  - name: coaches
+  - name: coaches-page
     label: Coaches page
     type: file
-    path: content/coaches/index.njk
+    path: content/coaches.njk
     fields:
       - { name: layout, type: string, hidden: true, default: layouts/base.njk }
       - name: eleventyNavigation
